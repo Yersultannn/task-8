@@ -1,0 +1,54 @@
+/* src/styles.css */
+
+/* Обновленные цвета */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, #92c5ff, #fff); /* градиентный фон */
+    color: #333; /* темно-серый текст */
+}
+
+.container {
+    max-width: 400px; /* уменьшаем максимальную ширину контейнера */
+    margin: 50px auto; /* добавлен отступ сверху и снизу */
+    padding: 20px; /* уменьшаем внутренний отступ */
+    background-color: #fff;
+    border-radius: 10px; /* увеличен радиус скругления */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* увеличен размер тени */
+}
+
+/* Стили кнопок */
+button {
+    padding: 10px 20px; /* уменьшаем размер кнопок */
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 0; /* убираем отступ слева */
+}
+
+/* Стили кнопки при наведении */
+button:hover {
+    background-color: #000000;
+}
+
+/* Стили элементов списка */
+li {
+    margin-bottom: 10px; /* уменьшаем нижний отступ */
+    padding: 10px;
+    border: 2px solid #ef1212;
+    background-color: #f9f9f9; /* светло-серый фон */
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили кнопки удаления */
+button.delete {
+    margin-left: 10px;
+    background-color: #dc3545;
+}
+
+/* Стили кнопки удаления при наведении */
+button.delete:hover {
+    background-color: #c82333;
+}
